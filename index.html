@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="font" href="CurseddTimerUlil-Aznm.ttf">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home" class="score-board">
+                <h3>HOME</h3>
+                <div id="home-score"
+                class="scores">
+                    <p>0</p>
+                </div>
+                <button id="home-plus-one-btn" onclick="increaseHomeScoreOne()">+ 1</button>
+                <button id="home-plus-two-btn" onclick="increaseHomeScoreTwo()">+ 2</button>
+                <button id="home-plus-three-btn" onclick="increaseHomeScoreThree()">+ 3</button>
+                
+                <br>
+                <button id="home-negative-one-btn" onclick="decreaseHomeScoreOne()"> - 1</button>
+                <button id="home-negative-two-btn" onclick="decreaseHomeScoreTwo()"> - 2</button>
+                <button id="home-negative-three-btn" onclick="decreaseHomeScoreThree()"> - 3</button>
+                
+         
+            </div>
+            <button id="resetScore" onclick="resetScore()">Reset</button>
+            
+            
+            <div id="away" class="score-board">
+                <h3>GUEST</h3>
+                <div id="away-score"
+                class="scores">
+                    <p>0</p>
+                </div>
+                <button id="away-plus-one-btn" onclick="increaseAwayScoreOne()">+ 1</button>
+                <button id="away-plus-two-btn" onclick="increaseAwayScoreTwo()">+ 2</button>
+                <button id="away-plus-three-btn" onclick="increaseAwayScoreThree()">+ 3</button>
+                
+                  <br>
+                <button id="away-negative-one-btn" onclick="decreaseAwayScoreOne()"> - 1</button>
+                <button id="away-negative-two-btn" onclick="decreaseAwayScoreTwo()"> - 2</button>
+                <button id="away-negative-three-btn" onclick="decreaseAwayScoreThree()"> - 3</button>
+                
+            </div>
+        
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
